@@ -1312,7 +1312,7 @@ def generate_pdf_report(player_name, section_scores, feedback_text, player_data,
             textColor=colors.grey
         )
         
-        story.append(Paragraph("©2025 KOA BASKETBALL ACADEMY ALL RIGHTS RESERVED", footer_style))
+        story.append(Paragraph("©2026 KOA BASKETBALL ACADEMY ALL RIGHTS RESERVED", footer_style))
         
         doc.build(story)
         pdf_bytes = buffer.getvalue()
